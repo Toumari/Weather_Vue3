@@ -2,7 +2,6 @@ import axios from "axios";
 import { ref } from "vue";
 
 const API_KEY = import.meta.env.VITE_API_KEY; // Replace with your actual API key
-console.log("API_KEY", API_KEY);
 
 export default function useWeather(cityName) {
   const weatherData = ref(null);
